@@ -1,21 +1,48 @@
 body {
   background-color: #eb4d55;
   font-family: "Montserrat";
-  color: #fff;
 }
 
 h1 {
-  color: #ff8364;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fb7b6b;
 }
 
-h3 {
-  color: #ff8364;
-}
 
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #5f6caf;
   border-width: 5px;
-  width: 5%
+  width: 5%;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #522d5b;
+  padding: 7% 25%;
+  color: #fff;
+}
+
+.planet-img {
+  position: absolute;
+  left: 125px;
+  top: 40px;
+}
+
+.img-title {
+  text-align: center;
+}
+
+.txt-title {
+  padding-top: 6%
+}
+
+#education {
+  background-color: #eb4d55;
+  padding: 7% 15%;
+  color: #f6e1e1;
 }
