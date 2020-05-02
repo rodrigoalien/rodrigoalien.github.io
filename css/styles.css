@@ -19,6 +19,7 @@ hr {
   width: 5%;
 }
 
+
 /* Title Section */
 
 #title {
@@ -38,8 +39,28 @@ hr {
 }
 
 .txt-title {
-  padding-top: 6%
+  padding-top: 6%;
 }
+
+/* Social Section */
+
+#social {
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-box {
+  padding: 3%;
+}
+
+.img-soc {
+  color: #522d5b;
+}
+
+.img-soc:hover {
+  color: #eb4d55;
+}
+
 
 #education {
   background-color: #eb4d55;
