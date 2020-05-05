@@ -10,15 +10,6 @@ h1 {
   color: #fb7b6b;
 }
 
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #5f6caf;
-  border-width: 5px;
-  width: 5%;
-}
-
 footer {
   color: #fb7b6b;
   text-align: center;
@@ -29,9 +20,22 @@ footer {
 
 #title {
   background-color: #522d5b;
-  padding: 7% 25%;
+  padding: 7% 25% 1% 25%;
   color: #fff;
 }
+/*
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+*/
 
 .planet-img {
   position: absolute;
@@ -44,6 +48,11 @@ footer {
 }
 
 .txt-title {
+  padding-top: 6%;
+}
+
+.col-btn {
+  text-align: center;
   padding-top: 6%;
 }
 
