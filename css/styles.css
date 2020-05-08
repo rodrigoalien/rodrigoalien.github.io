@@ -8,6 +8,7 @@ h1 {
   font-weight: 900;
   font-size: 3rem;
   color: #fb7b6b;
+  text-shadow: 1px 1px 2px black;
 }
 
 footer {
@@ -47,6 +48,10 @@ footer {
   text-align: center;
 }
 
+.img-title img{
+  filter: drop-shadow(8px 8px 10px black);
+}
+
 .txt-title {
   padding-top: 6%;
 }
@@ -74,6 +79,25 @@ footer {
 
 .img-soc:hover {
   color: #eb4d55;
+}
+
+#skills {
+  padding: 7% 15%;
+  background-color: #e7d39f;
+}
+
+.skill-title {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 3%; 
+  color: #eb4d55;
+  text-shadow: 1px 1px 2px black;
+} 
+
+.skill-img {
+  margin: 20px 20px;
+  filter: drop-shadow(8px 8px 10px black);
 }
 
 
