@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat";
+  font-family: 'Orbitron', sans-serif;
   font-weight: 900;
   font-size: 3rem;
   color: #fb7b6b;
@@ -54,6 +54,10 @@ footer {
 
 .txt-title {
   padding-top: 6%;
+  background-color: rgba(95,108,175, 0.2);
+  border-radius: 8px 2.5rem;
+  border: solid;
+  border-color: #fb7b6b;
 }
 
 .col-btn {
