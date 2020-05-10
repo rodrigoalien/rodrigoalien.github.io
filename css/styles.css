@@ -20,7 +20,8 @@ footer {
 /* Title Section */
 
 #title {
-  background-color: #522d5b;
+  /*background-color: #522d5b;*/
+  background-image: linear-gradient(to bottom right, #522d5b, #522d5b, #333399, #d7385e, #fb7b6b);
   padding: 7% 25% 1% 25%;
   color: #fff;
 }
@@ -54,7 +55,7 @@ footer {
 
 .txt-title {
   padding-top: 6%;
-  background-color: rgba(95,108,175, 0.2);
+  background-color: rgb(82, 45, 91, 0.5); /*rgba(95,108,175, 0.5);*/
   border-radius: 8px 2.5rem;
   border: solid;
   border-color: #fb7b6b;
@@ -70,15 +71,33 @@ footer {
 #social {
   background-color: #fff;
   text-align: center;
-  padding: 7% 15%;
+  /*padding: 7% 5%;*/
 }
 
+
 .social-box {
-  padding: 3%;
+  padding: 5% 0;
 }
+
+.social-bar {
+  background-color: #edf7fa;
+  border-radius: 8px 2.5rem;
+  border: solid;
+  border-color: #fb7b6b;
+}
+
+.img-octo-left {
+
+  transform: scaleX(-1);
+}
+
+/*.img-octo-dir {
+
+} */
 
 .img-soc {
   color: #522d5b;
+  padding: 1rem 2rem;
 }
 
 .img-soc:hover {
@@ -87,7 +106,8 @@ footer {
 
 #skills {
   padding: 7% 15%;
-  background-color: #e7d39f;
+  background-color: #edf7fa;
+  /*background-image: linear-gradient(to right, #fb7b6b, #eb4d55); */
 }
 
 .skill-title {
